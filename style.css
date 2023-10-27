@@ -82,6 +82,27 @@ body {
     right: 50px;
 }
 
+#hearts{
+    position: absolute;
+    left: 50px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.heart-img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+#shootCount{
+    font-size: 2em;
+    padding: 20px;
+    z-index: 1;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
 .zombie-image {
     position: absolute;
     bottom: -100px;
@@ -114,7 +135,7 @@ h2 {
 
 @keyframes flying {
     0% {
-        bottom: -100px;
+        bottom: -400px;
     }
 
     100% {
