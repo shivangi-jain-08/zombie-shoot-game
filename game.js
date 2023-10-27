@@ -37,7 +37,7 @@
         gameArena.innerHTML += `<img src="${zombieImage[randomIndex]}" alt="" class="zombie-image" id="zombie${id}">`
         var zombie = document.getElementById("zombie"+id)
         zombie.style.transform = `translateX(${getInteger(15,85)}vw)`
-        zombie.style.animationDuration = `${getInteger(3,5s)}s`
+        zombie.style.animationDuration = `${getInteger(3,5)}s`
         zombie.addEventListener("click", ()=>{
             destroyZombie(zombie)
         })
